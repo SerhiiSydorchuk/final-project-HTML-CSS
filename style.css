@@ -319,10 +319,12 @@ input[type="search"]::placeholder{
     font-weight: 700;
     margin: 150px 0 60px 0;
     }
-.plan {
+.plans-container>.plan {
     text-align: center;
     width: 25%;
     height: 593px;
+    transition: 1s;
+
 }
 .plan p {
     border-bottom: 1px solid #F6F6F6;
@@ -359,19 +361,16 @@ input[type="search"]::placeholder{
     border: none;
     margin: 50px 0 50px 0;
   }
- .active {
+.plans-container>.plan:hover {
     background: #0098FF;
+    transform: scale(1.05);
+    transition: 2s;
+    border-radius: 5px ;
+
 }
-.active p {
-     border-bottom: 1px solid #FFF;
-     color :#FFF;
- }
-.active h6 {
-    color: #FFF;
+.plans-container>.plan:hover h3, .plans-container>.plan:hover h6,.plans-container>.plan:hover p{
+       color: #FFF ;
 }
-.active h3 {
-     color: #FFF;
- }
 .plan strong {
        font-weight: 600;
    }
@@ -386,7 +385,9 @@ input[type="search"]::placeholder{
 .contact, .contact-block {
     background: rgba(246, 246, 246, 0.4);
 }
-
+.contact-link>ul>li>a:hover {
+    color: cornflowerblue;
+}
 .contact-block{
     justify-content: space-between;
     padding:100px 0 100px 0;

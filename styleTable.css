@@ -31,7 +31,15 @@
     .client , .client p:first-of-type {
         width: 300px;}
     .contact-link .list{
-        width: 150px;}
+        width: 150px;
+    }
     .contact-logo,.contact-items {
-        width: 200px;}
+        width: 210px;
+    }
+    .contact {
+        justify-content: center;
+        gap: 50px;
+
+
+    }
 }
