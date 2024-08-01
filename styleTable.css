@@ -1,0 +1,37 @@
+@media screen and (min-width: 720px) and (max-width: 1200px) {
+    .main-flex {
+        width: 850px;
+    }
+    body {
+        font-size: 12px;
+    }
+    .virtual-server img {
+        width: 500px;
+        height: 500px;
+    }
+    input[type="search"] {
+        width: 300px;
+    }
+    .search-domain button {
+        padding: 12px 30px 13px 30px;
+    }
+    .search-box {
+        width: 450px;
+    }
+    .domain-prices {
+        padding-left: 34px;
+        gap: 25px;
+    }
+    .domain-prices-bottom, .domain-prices-top{
+        gap: 80px;
+    }
+    .services-container {
+        width: 850px;
+    }
+    .client , .client p:first-of-type {
+        width: 300px;}
+    .contact-link .list{
+        width: 150px;}
+    .contact-logo,.contact-items {
+        width: 200px;}
+}

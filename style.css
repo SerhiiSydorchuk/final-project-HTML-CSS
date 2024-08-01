@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+    }
+html {
+    scroll-behavior: smooth;
+}
+.main-flex {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/** Nav bar**/
+header, .virtual-server {
+       background: #F7F8FD;
+}
+.navBar {
+    justify-content: space-between;
+     padding-top: 30px;
+    background: #F7F8FD;
+
+}
+.navBar ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+}
+nav ul li a:hover {
+   border-bottom: 1px solid rgba(3, 4, 94, 0.6);
+}
+nav ul li a {
+    text-decoration: none;
+    color: #03045E;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+nav ul li button {
+    padding: 11px 35px;
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 1.125em;
+    font-weight: 700;
+    border-radius: 5px;
+    background:#03045E;
+    border: none;
+
+}
+/** Main section**/
+
+
+/**Virtual server**/
+.virtual-server-wrap {
+    justify-content: center;
+    gap: 71px;
+    background: #F7F8FD;
+}
+.virtual-server-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 189px;
+    gap: 36px;
+}
+.virtual-server-wrap img {
+    margin-top: 121px;
+    padding-bottom: 200px;
+}
+.virtual-server-info h1 {
+    color: #03045E;
+    font-family: Ubuntu, sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 68px;
+}
+.virtual-server-info p {
+    color: rgba(3, 4, 94, 0.50);
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.virtual-server-info button {
+    border-radius: 5px;
+    background: #0098FF;
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 1.125em;
+    font-weight: 600;
+    width: 188px;
+    height: 61px;
+    border: none;
+}
+/** Search domain**/
+.search-domain h3 {
+    color: #03045E;
+    font-family: Ubuntu, sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 36px ;
+    }
+ input[type="search"]
+ {
+    width: 466px;
+    border-radius: 5px 0 0 5px;
+    background: #F6F6F6;
+    height: 60px;
+    border-width: 0;
+    }
+input[type="search"]::placeholder{
+    color:  #03045E;
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+    opacity: 0.5;
+}
+.search-domain button {
+    border-radius: 0 5px 5px 0;
+    background: #0098FF;
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 1.125em;
+    font-weight: 600;
+    padding: 16px 38px 17px 38px;
+    border: none;
+}
+.search {
+    align-items: flex-end;
+    height: 134px;
+    margin: 150px auto;
+    }
+.search-box {
+    display: flex;
+    width: 680px;
+    height: 100%;
+
+
+}
+/**Domain prices**/
+.domain-prices {
+    display: flex;
+    flex-direction: column;
+    width: 680px;
+    gap: 32px;
+    padding-left: 69px;
+    border-left: 1px solid rgba(3, 4, 94, 0.1);
+}
+.domain-price h5 {
+    color:  #0098FF;
+    font-family: Ubuntu,sans-serif;
+    font-size: 1.25em;
+    font-weight: 700;
+ }
+.domain-price p {
+    color: #03045E;
+    font-family: Poppins,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.3;
+}
+.domain-prices-bottom, .domain-prices-top {
+  display: flex;
+    justify-content: space-between;
+    gap: 117px;
+}
+
+/**OUR SERVICES **/
+
+.services {
+      background: rgba(246, 246, 246, 0.4);
+    padding-bottom: 150px;
+
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 1281px;
+    margin: 0 auto;
+}
+.service {
+    width: 407px;
+    height: 255px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.service-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background:#F6F6F6;
+}
+.service h5 {
+    color: #03045E;
+    font-family: Ubuntu,sans-serif;
+    font-size: 1.25em;
+    font-weight: 700;
+}
+.service p {
+    color: #03045E;
+    justify-content:center ;
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.5;
+  }
+.services h2 {
+    color: #03045E;
+    font-family: Ubuntu,sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: center;
+    padding: 150px 0 60px 0;
+}
+
+/*!**Our Clients***/
+
+.clients {
+    background: #FFF;
+    flex-direction: column;
+    align-items: center;
+    }
+.clients h2 {
+    text-align: center;
+    color:  #03045E;
+    font-family: Ubuntu,sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 150px 0 60px 0;
+}
+.clients-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+
+}
+.client {
+    width: 407px;
+    height: 263px;
+    background: rgba(246, 246, 246, 0.4);
+    text-align: center;
+    }
+.client p:first-of-type {
+    color: rgba(3, 4, 94, 0.5);
+    text-align: center;
+    font-family: Poppins,sans-serif;
+    font-size: 1.125em;
+    font-weight: 400;
+    width: 327px;
+
+    margin: 50px auto 0 auto;
+}
+.client p:last-of-type{
+    color: rgba(3, 4, 94, 0.5);
+    font-size: 14px;
+    font-family: Poppins,sans-serif;
+    font-weight: 400;
+}
+.client h5 {
+    color: #03045E;
+    font-family: Ubuntu,sans-serif;
+    font-size: 1.25em;
+    font-weight: 700;
+    margin: 30px 0 8px 0;
+}
+.clients svg {
+    margin-bottom: 150px;
+    width: 100%;
+}
+/** STATISTICS**/
+.statistics {
+    background: #0098FF;
+    height: 315px;
+    }
+.statistics-box {
+    text-align: center;
+    width: 297px;
+    margin: 100px 0;
+}
+.statistics-box p:first-of-type {
+    color: #FFF;
+    font-family: Ubuntu , sans-serif;
+    font-size: 3.75em;
+    font-weight: 700;
+    margin-bottom: 16px;
+    }
+.statistics-box p:last-of-type {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins,sans-serif;
+    font-size: 1.25em;
+    font-weight: 400;
+}
+.statistics-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/**Our Flexible Plan**/
+
+.plans h2{
+    text-align: center;
+    color:#03045E;
+    font-family: Ubuntu,sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 150px 0 60px 0;
+    }
+.plan {
+    text-align: center;
+    width: 25%;
+    height: 593px;
+}
+.plan p {
+    border-bottom: 1px solid #F6F6F6;
+    color: rgba(3, 4, 94, 0.5);
+    font-family: Poppins,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+.plan h6 {
+    color: #0098FF;
+    text-align: center;
+    font-family:Ubuntu,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 40px 0 16px 0;
+   }
+.plan h3{
+    color: #03045E;
+    font-family: Ubuntu,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 40px;
+}
+.plan button {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background:  #03045E;
+   color: #FFF;
+    font-family: Poppins,sans-serif;
+    font-size: 1.25em;
+     font-weight: 700;
+    border: none;
+    margin: 50px 0 50px 0;
+  }
+ .active {
+    background: #0098FF;
+}
+.active p {
+     border-bottom: 1px solid #FFF;
+     color :#FFF;
+ }
+.active h6 {
+    color: #FFF;
+}
+.active h3 {
+     color: #FFF;
+ }
+.plan strong {
+       font-weight: 600;
+   }
+.plans-container {
+       margin-bottom: 150px;
+   }
+
+
+   /**Contacts us**/
+
+
+.contact, .contact-block {
+    background: rgba(246, 246, 246, 0.4);
+}
+
+.contact-block{
+    justify-content: space-between;
+    padding:100px 0 100px 0;
+}
+.contact-logo,.contact-items {
+    width: 297px;
+}
+.contact-link, .contact-service {
+    width: 187px;
+}
+.contact-logo  p {
+    color: rgba(3, 4, 94, 0.5);
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+.list ul {
+    list-style-type: none;
+
+}
+.list ul li,a {
+    text-decoration: none;
+    color: rgba(3, 4, 94, 0.5);
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    display: block;
+}
+.list h6 {
+    font-family: Ubuntu,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    }
+.contact .icons {
+    display: flex;
+    gap: 20px; }
+.icons a {
+    color: #0098FF;
+    font-size: 1.5em;
+}
+.icons>a:hover {
+    color: rgba(0, 152, 255, 0.5);
+    transition: 500ms;
+}
+    .contact-items h6:last-of-type {
+         margin: 30px 0 22px 0;
+    }
+
+    /**FOOTER **/
+
+.privacyPolicy {
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    }
+.privacyPolicy p {
+    color:  #03045E;
+    font-family: Poppins,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
