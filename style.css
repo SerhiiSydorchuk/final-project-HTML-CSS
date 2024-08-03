@@ -47,7 +47,15 @@ nav ul li button {
     border-radius: 5px;
     background:#03045E;
     border: none;
-
+    transition: 500ms;
+}
+nav ul li button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    }
+nav ul li button:active {
+    color: black;
+    background: rgba(126, 126, 234, 0.78);
 }
 /** Main section**/
 
@@ -92,6 +100,16 @@ nav ul li button {
     height: 61px;
     border: none;
 }
+.virtual-server-info button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+.virtual-server-info button:active, .search-domain button:active {
+    color: black;
+    background: white;
+    border: 1px solid #0098FF;
+    transition: 1s;
+}
 /** Search domain**/
 .search-domain h3 {
     color: #03045E;
@@ -125,7 +143,9 @@ input[type="search"]::placeholder{
     font-weight: 600;
     padding: 16px 38px 17px 38px;
     border: none;
+    transition: 500ms;
 }
+
 .search {
     align-items: flex-end;
     height: 134px;
@@ -361,6 +381,14 @@ input[type="search"]::placeholder{
     border: none;
     margin: 50px 0 50px 0;
   }
+.plan button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+.plan button:active {
+    color: black;
+    background: white;
+}
 .plans-container>.plan:hover {
     background: #0098FF;
     transform: scale(1.05);
