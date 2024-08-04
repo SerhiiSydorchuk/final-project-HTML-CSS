@@ -11,7 +11,6 @@ html {
     margin: 0 auto;
     display: flex;
 }
-
 /** Nav bar**/
 header, .virtual-server {
        background: #F7F8FD;
@@ -20,7 +19,6 @@ header, .virtual-server {
     justify-content: space-between;
      padding-top: 30px;
     background: #F7F8FD;
-
 }
 .navBar ul{
     display: flex;
@@ -35,7 +33,7 @@ nav ul li a {
     text-decoration: none;
     color: #03045E;
     font-family: "Ubuntu", sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 500;
 }
 nav ul li button {
@@ -59,10 +57,8 @@ nav ul li button:active {
 }
 /** Main section**/
 
-
 /**Virtual server**/
 .virtual-server-wrap {
-    justify-content: center;
     gap: 71px;
     background: #F7F8FD;
 }
@@ -86,7 +82,7 @@ nav ul li button:active {
 .virtual-server-info p {
     color: rgba(3, 4, 94, 0.50);
     font-family: Poppins,sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
 }
 .virtual-server-info button {
@@ -129,11 +125,11 @@ nav ul li button:active {
 input[type="search"]::placeholder{
     color:  #03045E;
     font-family: Poppins,sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
     padding-left: 20px;
     opacity: 0.5;
-}
+    }
 .search-domain button {
     border-radius: 0 5px 5px 0;
     background: #0098FF;
@@ -145,7 +141,6 @@ input[type="search"]::placeholder{
     border: none;
     transition: 500ms;
 }
-
 .search {
     align-items: flex-end;
     height: 134px;
@@ -155,8 +150,6 @@ input[type="search"]::placeholder{
     display: flex;
     width: 680px;
     height: 100%;
-
-
 }
 /**Domain prices**/
 .domain-prices {
@@ -176,7 +169,7 @@ input[type="search"]::placeholder{
 .domain-price p {
     color: #03045E;
     font-family: Poppins,sans-serif;
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 500;
     opacity: 0.3;
 }
@@ -185,19 +178,13 @@ input[type="search"]::placeholder{
     justify-content: space-between;
     gap: 117px;
 }
-
 /**OUR SERVICES **/
-
 .services {
       background: rgba(246, 246, 246, 0.4);
     padding-bottom: 150px;
-
 }
-
 .services-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     gap: 30px;
     width: 1281px;
@@ -229,7 +216,7 @@ input[type="search"]::placeholder{
     color: #03045E;
     justify-content:center ;
     font-family: Poppins,sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
     text-align: center;
     opacity: 0.5;
@@ -261,10 +248,8 @@ input[type="search"]::placeholder{
 .clients-list {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 30px;
     margin-bottom: 40px;
-
 }
 .client {
     width: 407px;
@@ -284,7 +269,7 @@ input[type="search"]::placeholder{
 }
 .client p:last-of-type{
     color: rgba(3, 4, 94, 0.5);
-    font-size: 14px;
+    font-size: 0.875em;
     font-family: Poppins,sans-serif;
     font-weight: 400;
 }
@@ -307,8 +292,7 @@ input[type="search"]::placeholder{
 .statistics-box {
     text-align: center;
     width: 297px;
-    margin: 100px 0;
-}
+   }
 .statistics-box p:first-of-type {
     color: #FFF;
     font-family: Ubuntu , sans-serif;
@@ -326,6 +310,7 @@ input[type="search"]::placeholder{
 .statistics-content {
     display: flex;
     justify-content: space-between;
+    height: 100%;
     align-items: center;
 }
 
@@ -342,7 +327,6 @@ input[type="search"]::placeholder{
 .plans-container>.plan {
     text-align: center;
     width: 25%;
-    height: 593px;
     transition: 1s;
 
 }
@@ -350,7 +334,7 @@ input[type="search"]::placeholder{
     border-bottom: 1px solid #F6F6F6;
     color: rgba(3, 4, 94, 0.5);
     font-family: Poppins,sans-serif;
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 400;
     padding: 10px 0;
 }
@@ -358,7 +342,7 @@ input[type="search"]::placeholder{
     color: #0098FF;
     text-align: center;
     font-family:Ubuntu,sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 700;
     margin: 40px 0 16px 0;
    }
@@ -379,7 +363,7 @@ input[type="search"]::placeholder{
     font-size: 1.25em;
      font-weight: 700;
     border: none;
-    margin: 50px 0 50px 0;
+    margin: 50px 0 ;
   }
 .plan button:hover {
     transform: scale(1.1);
@@ -406,10 +390,7 @@ input[type="search"]::placeholder{
        margin-bottom: 150px;
    }
 
-
    /**Contacts us**/
-
-
 .contact, .contact-block {
     background: rgba(246, 246, 246, 0.4);
 }
@@ -418,7 +399,7 @@ input[type="search"]::placeholder{
 }
 .contact-block{
     justify-content: space-between;
-    padding:100px 0 100px 0;
+    padding:100px 0;
 }
 .contact-logo,.contact-items {
     width: 297px;
@@ -429,7 +410,7 @@ input[type="search"]::placeholder{
 .contact-logo  p {
     color: rgba(3, 4, 94, 0.5);
     font-family: Poppins,sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
     margin-top: 24px;
 }
@@ -441,7 +422,7 @@ input[type="search"]::placeholder{
     text-decoration: none;
     color: rgba(3, 4, 94, 0.5);
     font-family: Poppins,sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
     line-height: 40px;
     display: block;
@@ -477,7 +458,7 @@ input[type="search"]::placeholder{
 .privacyPolicy p {
     color:  #03045E;
     font-family: Poppins,sans-serif;
-    font-size: 12px;
+    font-size: 0.75em;
     font-weight: 400;
 }
 
