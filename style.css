@@ -53,7 +53,8 @@ nav ul li button:hover {
     }
 nav ul li button:active {
     color: black;
-    background: rgba(126, 126, 234, 0.78);
+    background: white;
+    border: 1px solid #03045E;
 }
 /** Main section**/
 
@@ -372,6 +373,7 @@ input[type="search"]::placeholder{
 .plan button:active {
     color: black;
     background: white;
+    border: 1px solid #03045E;
 }
 .plans-container>.plan:hover {
     background: #0098FF;
